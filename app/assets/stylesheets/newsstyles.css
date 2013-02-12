@@ -1,0 +1,12 @@
+#sidebar {
+	background-color: hsl(210,75%,50%);
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-align: center;
+	color: hsl(210,75%,77%);
+	float:right;
+}
+
+#my-tab-content {
+	color: #000;
+}

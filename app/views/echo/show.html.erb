@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Echo App</title>
+  <link href="/assets/application-3c9de844c270a7d8bc32c9e7e7684900.css" media="all" rel="stylesheet" type="text/css" />
+  
+  
+</head>
+<body>
+	
+<div class="column">
+<div class="formAndTable">
+    <table cellpadding="20">
+	  <tr>
+	    <td>hello</td>
+	    <td>world</td>
+	  </tr>
+	  <tr>
+	    <td>goodbye</td>
+	    <td>world</td>
+	  </tr>
+	</table>
+</div>
+</div>
+
+<!-- this is column 2 -->
+<div class="column">
+	<div class="formAndTable">
+    	<form accept-charset="UTF-8" action="echo/echo" class="name" id="name"method="post">
+		
+			<h1> Name Form</h1>
+			<hr>
+	  		<div class="field">
+	    		<label for="user_name">Name</label><br />
+	    		<i class = "icon-star"></i><input id="name" name="name" size="30" type="text" />
+	  		</div>
+			<br>
+	  		<div class="enterYour">
+	    		Enter your name here.
+	  		</div>
+			<br>
+			<input type="checkbox" name="nameCheck" value="Check">Check me out
+	  		<div class="submits">
+	    		<input class="btn" name="commit" type="submit" value="Submit Name" />
+	  		</div>
+		</form>
+	</div>
+</div>
+
+<!-- this is column 3 -->
+<div class="column">
+	<div class="formAndTable">
+    	<form accept-charset="UTF-8" action="echo/echo" class="ageForm" id="age" method="post">
+		
+			<h1> Age Form </h1>
+			<hr>	
+	  		<div class="field">
+		  		<label for="user_name">Age</label><br />
+	  			<i class = "icon-calendar"></i><input id="age" name="age" size="30" type="text" />
+		
+ 			</div>
+	 		<br>
+			<div class="enterYour">
+	    		Enter your age here.
+			</div>
+			<br>
+			<input type="checkbox" name="ageCheck" value="Check">Check me out
+	  		<div class="submits">
+	    		<input class="btn" name="commit" type="submit" value="Submit Age" />
+		
+	  		</div>
+		</form>
+	</div>
+</div>
+
+</body>
+
+<footer>
+	<h3>Created By: Joe Budin </h3>
+	
+</footer>
+</html>

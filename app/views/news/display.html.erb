@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snowmobiles</title>
+  </head>
+  <body>
+    <div class="hero-unit">
+     	<div class="page-header">
+    		<h1><strong>Snowmobiles </strong><small>Steep and deep</small></h1>
+ 		</div>
+	</div> <!-- Hero-unit (General container page) -->
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span9">
+              <div class="row-fluid"> <!-- nav_tab div -->
+                <%= render "nav_tabs" %> 
+              </div> <!-- row-fluid container for the tabs div -->
+              <div class="row-fluid"> <!-- Table -->
+            	<%= render "tablecreate" %>
+              </div> <!-- row-fluid container for the table div -->
+              <div class="row-fluid">
+            	<%= render "notes" %>
+              </div>
+        	</div> <!-- Span9 container -->
+            <div class="span3" id="sidebar">
+            	<%= render "sidebar" %>
+            </div> 
+           </div> 
+      	</div>
+	</div> 
+   </body>
+</html>

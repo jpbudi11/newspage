@@ -1,0 +1,22 @@
+<div class="tabbable">
+	<ul class="nav nav-tabs" id="newsTabs">
+		<li class="active"><a href="#arcticCat" data-toggle="tab">Arctic Cat</a></li>
+		<li class=""><a href="#polaris" data-toggle="tab">Polaris</a></li>
+		<li class=""><a href="#skidoo" data-toggle="tab">Skidoo</a></li>
+		<li class=""><a href="#yamaha" data-toggle="tab">Yamaha</a></li>
+	</ul>
+	<div id="newsTabContent" class="tab-content">
+	   	<div class="tab-pane active" id="arcticcat">
+	    	<%= render 'arcticcat' %>
+	    </div>
+	    <div class="tab-pane" id="polaris">
+			<%= render 'polaris' %>
+	    </div>
+	    <div class="tab-pane" id="skidoo">
+	    	<%= render 'skidoo' %>
+		</div>
+	    <div class="tab-pane" id="yamaha">
+	    	<%= render 'yamaha' %>
+	    </div>
+	</div> 
+</div>
